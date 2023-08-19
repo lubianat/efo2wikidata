@@ -1,7 +1,4 @@
-
-
 # Step by step connection of an ontology to Wikidata
-
 
 1 - Create a property on Wikidata to host the identifier: https://www.wikidata.org/wiki/Property:P11956
 
@@ -18,7 +15,6 @@ Labels and identifiers should, however, not be liable to claims of IP. IDs are n
 The cross-references in an ontology are also in a gray area.
 
 The general rule is to proceed with caution and common sense, trying to respect the desires of all stakeholders as well as possible. 
-
 
 3 - Create a Mix'n'Match catalog for manual curation of entries.
 

@@ -1,0 +1,11 @@
+---
+processing_parameters:
+  - heuristic: Q121619566
+    pid: P494
+    reference_prefix: ICD10
+    wikidata_id_style: drop_prefix
+  - heuristic: Q121546327
+    pid: P7963
+    reference_prefix: CL
+    wikidata_id_style: underline
+  # ... add more parameter sets as needed
