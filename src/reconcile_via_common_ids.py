@@ -94,7 +94,8 @@ class WikidataProcessor:
         print(render_qs_url(qs))
 
 
-target_params = ["ICD10"]
+target_params = ["NCIt"]
+skip_prefixes = ["OMIM"] # multimappings
 def main():
     HERE = Path(__file__).parent.resolve()
     config = load_config(HERE.joinpath("xref_config.yaml"))
@@ -104,7 +105,7 @@ def main():
     pid_to_add = "P11956"
 
     for params in config['processing_parameters']:
-        if params["reference_prefix"] in target_params:
+        if params["reference_prefix"] in target_params and params["reference_prefix"] not in skip_prefixes:
           reference_on_wd_pid = params['pid']
           reference_prefix = params['reference_prefix']
           heuristic = params['heuristic']

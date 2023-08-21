@@ -8,4 +8,24 @@ processing_parameters:
     pid: P7963
     reference_prefix: CL
     wikidata_id_style: underline
+  - heuristic: Q121745045
+    pid: P699
+    reference_prefix: DOID
+    wikidata_id_style: colon
+  - heuristic: Q121745068
+    pid: P3201
+    reference_prefix: MedDRA
+    wikidata_id_style: drop_prefix
+  - heuristic: Q119459341
+    pid: P1402
+    reference_prefix: FMA
+    wikidata_id_style: drop_prefix
+  - heuristic: Q121745147
+    pid: P492
+    reference_prefix: OMIM
+    wikidata_id_style: drop_prefix
+  - heuristic: Q121745409
+    pid: P1748
+    reference_prefix: NCIt
+    wikidata_id_style: drop_prefix
   # ... add more parameter sets as needed
